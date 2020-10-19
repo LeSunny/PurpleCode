@@ -23,7 +23,7 @@ console.log("두번째 문");
 
 
 ## 주석
-####1. 한줄 주석
+#### 1. 한줄 주석
 ```
 //자기소개 함수
 //@param name = 이름 : string      <--어떻게 함수를 사용하는지 알 수 있음
@@ -32,7 +32,7 @@ const introducet = (name) => {
 }
 ```
 
-####2. 여러줄 주석
+#### 2. 여러줄 주석
 ```
 /*
 * 코드, 파일 등에 대한 작성자 정보
@@ -42,7 +42,7 @@ const introducet = (name) => {
 
 
 ## 변수
-####<변수 선언>
+#### <변수 선언>
 ```
 var foo = 10,
     bar = 10;
@@ -52,7 +52,7 @@ console.log(foo, bar);
 가독성을 위해 변수는 한 줄씩 적어주는 것이 좋다.
 선언하지 않으면 아직 정의되지 않았다는 뜻의 undefined라는 값이 들어가게 된다.
 
-####<undefined와 null>
+#### <undefined와 null>
 ```
 var foo;
 console.log(foo); // undefined
@@ -68,7 +68,7 @@ undefined와 null은 다른 값이다.
 - null은 값이 없음이라고 명시적으로 제시한 것, 의도한 값
 이라는 뜻이다.
 
-####<var 키워드의 단점>
+#### <var 키워드의 단점>
 ***var의 단점 1.*** 똑같은 이름으로 두 번 만들어줘도 에러가 안난다.
 ```
 var name = "이다솜";
@@ -92,7 +92,7 @@ console.log(x); // error가 아닌 undefined가 뜸
 var x = 10;
 ```
 
-####<var의 단점을 극복한 let과 const의 등장>
+#### <var의 단점을 극복한 let과 const의 등장>
 ```
 //let : 변수
 let aa = 10;
@@ -105,7 +105,7 @@ const ab = 10;
 console.log(ab);
 ```
 
-####<변수의 표기법>
+#### <변수의 표기법>
 1. Camel case
 변수명에서 구분되는 곳을 대문자로 표기한다.
 ```
@@ -115,7 +115,7 @@ const purpleCode = 10;
 ```
 const BLACK = "#000000";
 ```
-####템플릿 리터럴
+#### 템플릿 리터럴
 템플릿 = 일부만 변경해서 반복이나 재사용할 수 있는 틀
 ```
 console.log("안녕하세요 저는"+name+"입니다.");
