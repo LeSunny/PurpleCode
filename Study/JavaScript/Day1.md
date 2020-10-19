@@ -1,4 +1,4 @@
-## 개발환경설정
+# 개발환경설정
 - SourceTree: Git GUI 환경 제공
 - chocolatey : Windows에서 소프트웨어를 설치하기 쉽게 도와주는 툴
 - Node.js : JavaScript의 실행기
@@ -9,8 +9,8 @@
 
 
 
-## JavaScript
-##### JavaScript 시작하기
+# JavaScript
+## JavaScript 시작하기
 - JavaScript는 브라우저에서 언제든 사용 가능하다. 크롬이 현재 JavaScript 버전을 가장 잘 지원하므로 크롬을 사용한다.
   - Windows의 Chrome: F12 > 개발자도구 > Console탭
 - console.log 문법
@@ -22,7 +22,7 @@ console.log("두번째 문");
 - Webstorm > js파일 생성 > 코드 입력 > 하단의 Terminal > node 파일이름 (.js는 생략 가능)
 
 
-##### 주석
+## 주석
 ***1. 한줄 주석***
 ```
 //자기소개 함수
@@ -31,7 +31,7 @@ const introducet = (name) => {
     console.log("안녕하세요"+ name)
 }
 ```
-<br>
+
 ***2. 여러줄 주석***
 ```
 /*
@@ -41,8 +41,8 @@ const introducet = (name) => {
 ```
 
 
-##### 변수
-*** <변수 선언> ***
+## 변수
+***<변수 선언>***
 ```
 var foo = 10,
     bar = 10;
@@ -69,14 +69,14 @@ undefined와 null은 다른 값이다.
 이라는 뜻이다.
 
 ***<var 키워드의 단점>***
-var의 단점 1. 똑같은 이름으로 두 번 만들어줘도 에러가 안난다.
+***var의 단점 1.*** 똑같은 이름으로 두 번 만들어줘도 에러가 안난다.
 ```
 var name = "이다솜";
 console.log(name);
 var name = "리다솜";
 console.log(name);
 ```
-var의 단점 2. if문 스코프 안에서 선언된 변수인데도 그 밖에서 사용이 가능하다.
+***var의 단점 2.*** if문 스코프 안에서 선언된 변수인데도 그 밖에서 사용이 가능하다.
 ```
 var name = "이다솜";
 if(name == "이다솜"){
@@ -86,7 +86,7 @@ if(name == "이다솜"){
 }
 console.log(success);
 ```
-var의 단점3. 끌어올림. 아래서 선언했는데도 불구하고 var x 선언을 위로 끌어올린다.
+***var의 단점 3.*** 끌어올림. 아래서 선언했는데도 불구하고 var x 선언을 위로 끌어올린다.
 ```
 console.log(x); // error가 아닌 undefined가 뜸
 var x = 10;
