@@ -5,7 +5,7 @@
 - NVM : 여러 Node 버전을 관리
 - Webstorm : 웹 개발용 IDE. Refactoring에 최적화
   - 플러그인 : Code With Me, Rainbow Brackets
-<br><br><br><br>
+
 ##JavaScript
 ##### JavaScript 시작하기
 - JavaScript는 브라우저에서 언제든 사용 가능하다. 크롬이 현재 JavaScript 버전을 가장 잘 지원하므로 크롬을 사용한다.
@@ -16,7 +16,6 @@
 > console.log("두번째 문");
 - Webstorm > js파일 생성 > 코드 입력 > 하단의 Terminal > node 파일이름 (.js는 생략 가능)
 
-<br><br>
 ##### 주석
 ***1. 한줄 주석***
 ```
