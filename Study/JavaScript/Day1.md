@@ -1,4 +1,4 @@
-#개발환경설정
+## 개발환경설정
 - SourceTree: Git GUI 환경 제공
 - chocolatey : Windows에서 소프트웨어를 설치하기 쉽게 도와주는 툴
 - Node.js : JavaScript의 실행기
@@ -6,15 +6,21 @@
 - Webstorm : 웹 개발용 IDE. Refactoring에 최적화
   - 플러그인 : Code With Me, Rainbow Brackets
 
-#JavaScript
+
+
+
+## JavaScript
 ##### JavaScript 시작하기
 - JavaScript는 브라우저에서 언제든 사용 가능하다. 크롬이 현재 JavaScript 버전을 가장 잘 지원하므로 크롬을 사용한다.
   - Windows의 Chrome: F12 > 개발자도구 > Console탭
 - console.log 문법
-> console.log("첫 세미나 입니다");
-> console.log("첫번째 문");
-> console.log("두번째 문");
+```
+console.log("첫 세미나 입니다");
+console.log("첫번째 문");
+console.log("두번째 문");
+```
 - Webstorm > js파일 생성 > 코드 입력 > 하단의 Terminal > node 파일이름 (.js는 생략 가능)
+
 
 ##### 주석
 ***1. 한줄 주석***
@@ -33,9 +39,10 @@ const introducet = (name) => {
 *    만든이 : 이다솜
 * */
 ```
-<br><br>
+
+
 ##### 변수
-***<변수 선언>***
+*** <변수 선언> ***
 ```
 var foo = 10,
     bar = 10;
@@ -44,7 +51,7 @@ console.log(foo, bar);
 ```
 가독성을 위해 변수는 한 줄씩 적어주는 것이 좋다.
 선언하지 않으면 아직 정의되지 않았다는 뜻의 undefined라는 값이 들어가게 된다.
-<br>
+
 ***<undefined와 null>***
 ```
 var foo;
@@ -57,10 +64,10 @@ console.log(a, b); //null undefined
 ```
 undefined와 null은 다른 값이다.
 모두 JavaScript에서 값이 없음을 뜻하지만,
-* undefined는 값이 아직 정의되지 않았음, 초기화되지 않음
-* null은 값이 없음이라고 명시적으로 제시한 것, 의도한 값
+- undefined는 값이 아직 정의되지 않았음, 초기화되지 않음
+- null은 값이 없음이라고 명시적으로 제시한 것, 의도한 값
 이라는 뜻이다.
-<br>
+
 ***<var 키워드의 단점>***
 var의 단점 1. 똑같은 이름으로 두 번 만들어줘도 에러가 안난다.
 ```
@@ -84,7 +91,7 @@ var의 단점3. 끌어올림. 아래서 선언했는데도 불구하고 var x �
 console.log(x); // error가 아닌 undefined가 뜸
 var x = 10;
 ```
-<br>
+
 ***<var의 단점을 극복한 let과 const의 등장>***
 ```
 //let : 변수
@@ -97,7 +104,7 @@ const ab = 10;
 //ab = 20; --> error 발생
 console.log(ab);
 ```
-<br>
+
 ***<변수의 표기법>***
 1. Camel case
 변수명에서 구분되는 곳을 대문자로 표기한다.
@@ -108,7 +115,7 @@ const purpleCode = 10;
 ```
 const BLACK = "#000000";
 ```
-<br>
+
 ***템플릿 리터럴***
 템플릿 = 일부만 변경해서 반복이나 재사용할 수 있는 틀
 ```
