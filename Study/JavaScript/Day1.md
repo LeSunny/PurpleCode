@@ -180,7 +180,8 @@ number %= 3; // 1
 ```
 
 #### 논리 연산자
-- ! : NOT
+- !
+  - NOT
 ```
 console.log(!true);//false
 console.log(!false);//true
@@ -214,7 +215,7 @@ const name = "이다솜";
 console.log(name && "있음"); //앞부터 봐서 true면 뒤의 조건을 본다.
 console.log(undefined && "있음"); //이 경우 undefined 출력
 ```
-- || : OR
+- ||
   - OR
   - 첫번째 truty 값을 반환
 ```
