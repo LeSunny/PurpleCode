@@ -1,4 +1,4 @@
-##개발환경설정
+#개발환경설정
 - SourceTree: Git GUI 환경 제공
 - chocolatey : Windows에서 소프트웨어를 설치하기 쉽게 도와주는 툴
 - Node.js : JavaScript의 실행기
@@ -6,7 +6,7 @@
 - Webstorm : 웹 개발용 IDE. Refactoring에 최적화
   - 플러그인 : Code With Me, Rainbow Brackets
 
-##JavaScript
+#JavaScript
 ##### JavaScript 시작하기
 - JavaScript는 브라우저에서 언제든 사용 가능하다. 크롬이 현재 JavaScript 버전을 가장 잘 지원하므로 크롬을 사용한다.
   - Windows의 Chrome: F12 > 개발자도구 > Console탭
